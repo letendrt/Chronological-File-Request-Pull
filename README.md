@@ -25,19 +25,19 @@ It is recommended that users follow at least one of these guides before continui
 
 ## Understanding Script Outputs (CSV) 📜🐤
 
-Running the CSV creation function (see Script Version links above for instructions on how to get the sheet) outputs a CSV file that holds the following information about the requestee:
+Running the CSV creation function (see Script Version links above for instructions on how to get the sheet) outputs a CSV file that holds the following information about the requestee (an example output file loaded into excel can be found in this repository):
 1) Request Date
 2) Email
-3) Identifier
+3) Identifier (used to grant/reject access via API)
 4) First Name
 5) Last Name
-6) Affiliation (institution)
+6) Affiliation (hosting institution)
 7) Position
 8) Persistent User ID
 9) Authentificator
-10) Requested File ID
-11) Requested File Names
+10) Requested File ID (put between square brackets and separated by commas if more than one)
+11) Requested File Names (put between square brackets and separated by commas if more than one)
 
-The CSV file also holds the 'Granted Access?' column - all values in the column are set to 'Pending'.
+The CSV file also holds the 'Granted Access?' column - all values in the column are set to 'Pending'. This is the only column that script runners need to edit prior to granting/rejecting access.
 
 
