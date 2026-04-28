@@ -6,7 +6,9 @@
 
   <kbd><img width="1021" height="749" alt="image" src="https://github.com/user-attachments/assets/5122328d-4769-4a00-8c77-ed90a5536fc8" /></kbd>
 
-5) Next, you will need to think about which task you want the script to run. Only one of the tasks can be run at the time (this is for purely pragmatic reasons). There are 2 tasks that can be initiated from the user interface:
+4) Enter your API key and the dataset DOI in fields 1 and 2 respectively. 
+
+5) Next, you will need to think about which task you want the script to run. Only one of the tasks can be run at the time (this is for purely pragmatic reasons). There are 2 tasks that can be initiated from the user interface - both necessitate an API key and the dataset DOI:
 
    1) Pull restricted file access requests (pulls all datafile requests for a given dataset, as well as the date at which the request was submitted - formats the whole in a curated CSV file). Or;
    2) Process requests after script user has classified them as "Granted" or "Rejected" in the output CSV file (from the above task). For instructions on how to format grant or reject access via the CSV file, consult the [main repository page](https://github.com/letendrt/Chronological-File-Request-Pull/tree/main) instructions (under README).
