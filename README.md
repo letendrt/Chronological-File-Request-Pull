@@ -16,8 +16,8 @@ Chrono pull basic functionalities are up and running. Further developments on fu
 
 ## Script Versions 💻🐝
 There are two versions of the present code:
-1) A user interface version specifically designed for individuals with minimal to no experience programming.
-2) A script version designed for individuals more comfortable working with scripts via IDE editors.
+1) A [user interface version](https://github.com/letendrt/Chronological-File-Request-Pull/tree/main/User%20Interface%20Version) specifically designed for individuals with minimal to no experience programming.
+2) A [script version](https://github.com/letendrt/Chronological-File-Request-Pull/tree/main/Script%20Version) designed for individuals more comfortable working with scripts via IDE editors.
 
 Both versions use the same functions and provide the same outputs. The instructions for the different version differ however. Users can follow the version's directory above to find their respective instructions.
 
