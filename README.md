@@ -1,4 +1,4 @@
-# Chronological File Request Pull and Access Granter 🕰️📬
+# Chronological Request Pull and Access Granter 🕰️📬
 Chrono pull basic functionalities are up and running. Further developments on functionalities to come!
 
 ## Code Purpose 🤔❓
