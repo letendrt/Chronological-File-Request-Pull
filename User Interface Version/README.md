@@ -18,3 +18,11 @@
    If Granting/Rejecting Access, check the box. This will prompt a new field on the window. Make sure to select the populated CSV file to process access requests (as explained above in point ii).
 
     <kbd><img width="710" height="233" alt="image" src="https://github.com/user-attachments/assets/e59e7345-c1e6-4ad4-89b5-07cdecc57dc3" /></kbd>
+
+
+
+## Optional Step
+
+Users can select in which borealis environment they want to run the script (Demo or Production environment) by checking the box in the bottom left corner of the window. By default, the script is set to run in production. Demo is really just for testing and tool development. 
+
+<kbd><img width="1016" height="744" alt="edited screenshot" src="https://github.com/user-attachments/assets/0f16e5bc-16b2-4255-bbab-e97f5bdbd6c5" /></kbd>
