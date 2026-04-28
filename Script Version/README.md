@@ -9,3 +9,10 @@
 4) You will then need to fetch your dataset DOI as well as your API key. Simply paste them in their respective fields in the script. The DOI can be in https:// fromat (URL) or in standard doi: format. The DOI will be automatically formatted by the script in a later function. Your API token can easily be fetched in your Borealis user drop down menu. 
 
     <kbd><img width="765" height="146" alt="image" src="https://github.com/user-attachments/assets/fa3add66-f0ac-4142-8af6-784908a05b43" /></kbd>
+
+5) Next, you will need to select which task you want the script to run. Only one of the tasks can be run at the time (this is for purely pragmatic reasons). There are 2 tasks that can be initiated with this script:
+
+   1) Pull restricted file access requests (pulls all datafile requests for a given dataset, as well as the date at which the request was submitted - formats the whole in a curated CSV file). Or;
+   2) Process requests after script user has classified them as "Granted" or "Rejected" in the output CSV file (from the above task). For instructions on how to format grant or reject access via the CSV file, consult the [main repository page](https://github.com/letendrt/Chronological-File-Request-Pull/tree/main) instructions (under README).
+
+    Selecting which task to run is easy. 
