@@ -21,7 +21,9 @@
 
     <kbd><img width="710" height="233" alt="image" src="https://github.com/user-attachments/assets/e59e7345-c1e6-4ad4-89b5-07cdecc57dc3" /></kbd>
 
-6) Press the RUN SCRIPT button to start the process (same button regardless of performed task - which task is run depends on whether the Granting/Rejecting Access checkbox is checked). Pressing the button will close the window and start the requested task. Task processing will and output directory for the CSV sheet will be visible in the python shell. 
+6) Press the RUN SCRIPT button to start the process (same button regardless of performed task - which task is run depends on whether the Granting/Rejecting Access checkbox is checked). Pressing the button will close the window and start the requested task. Task processing will and output directory for the CSV sheet will be visible in the python shell.
+
+7) Celebrate! 🎊🥳 (you saved time and energy!)
 
 ## Optional Step
 
