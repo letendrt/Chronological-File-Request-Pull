@@ -21,7 +21,7 @@ Both versions use the same functions and provide the same outputs. The instructi
 
 It is recommended that users follow at least one of these guides before continuing reading the present guide. Below are instructions on how the approve or reject requests using the tool. 
 
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️<br>
-Note that users of this tool must uphold their due diligence and ensure that the restricted file requestee meets the requirements to access said requested data. This tool is NOT a substitution for REB approval verification. 
+
+### ⚠️ Users of this tool must uphold their due diligence and ensure that the restricted file requestee meets the requirements to access said requested data. This tool is NOT a substitution for REB approval verification. This tool is simply to faciliate the ordering of requests, and to bulk accept/reject requests once user applications have been assessed. Always keep track of who has access to your data in a secondary worksheet.⚠️
 
 
