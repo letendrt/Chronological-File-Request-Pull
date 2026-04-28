@@ -26,4 +26,18 @@ It is recommended that users follow at least one of these guides before continui
 ## Understanding Script Outputs (CSV) 📜🐤
 
 Running the CSV creation function (see Script Version links above for instructions on how to get the sheet) outputs a CSV file that holds the following information about the requestee:
-1) 
+1) Request Date
+2) Email
+3) Identifier
+4) First Name
+5) Last Name
+6) Affiliation (institution)
+7) Position
+8) Persistent User ID
+9) Authentificator
+10) Requested File ID
+11) Requested File Names
+
+The CSV file also holds the 'Granted Access?' column - all values in the column are set to 'Pending'.
+
+
