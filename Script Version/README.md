@@ -22,3 +22,9 @@
 6) If processing reviewed access requests, users will also need to fetch the CSV file directory and paste it as the value for csv_granter_file variable. Note that if the script is being run on windows, users should keep the 'r' before the directory string.
 
     <kbd><img width="764" height="62" alt="image" src="https://github.com/user-attachments/assets/b5e2663c-66b8-4dfa-aff3-345ca381dc04" /></kbd>
+
+## Optional Step
+
+Users can select in which borealis environment they want to run the script (Demo or Production environment) by commenting/uncommenting the desired predefined URLs in the API INFO section. By default, the script is set to run in production. Demo is really just for testing and tool development. 
+
+<kbd><img width="775" height="167" alt="image" src="https://github.com/user-attachments/assets/e0cf69dc-d619-44d8-85e6-5016e5e70f67" /></kbd>
