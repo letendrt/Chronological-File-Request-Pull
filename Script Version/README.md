@@ -23,6 +23,8 @@
 
     <kbd><img width="764" height="62" alt="image" src="https://github.com/user-attachments/assets/b5e2663c-66b8-4dfa-aff3-345ca381dc04" /></kbd>
 
+7) Run the script! 🎊🥳
+
 ## Optional Step
 
 Users can select in which borealis environment they want to run the script (Demo or Production environment) by commenting/uncommenting the desired predefined URLs in the API INFO section. By default, the script is set to run in production. Demo is really just for testing and tool development. 
