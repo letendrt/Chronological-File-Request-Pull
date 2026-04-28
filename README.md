@@ -12,11 +12,16 @@ Chrono pull basic functionalities are up and running. Further developments on fu
 1) Local IDE (Jupyter, Wing, PyCharm, etc.)
 2) Minimum python version: 3.6+
 
-## Script Versions
+## Script Versions 💻🐝
 There are two versions of the present code:
 1) A user interface version specifically designed for individuals with minimal to no experience programming.
 2) A script version designed for individuals more comfortable working with scripts via IDE editors.
 
-Both versions use the same functions and provide the same outputs.
+Both versions use the same functions and provide the same outputs. The instructions for the different version differ however. Users can follow the version's directory above to find their respective instructions.
+
+It is recommended that users follow at least one of these guides before continuing reading the present guide. Below are instructions on how the approve or reject requests using the tool. 
+
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+Note that users of this tool must uphold their due diligence and insure that  
 
 
