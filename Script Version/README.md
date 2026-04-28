@@ -15,4 +15,10 @@
    1) Pull restricted file access requests (pulls all datafile requests for a given dataset, as well as the date at which the request was submitted - formats the whole in a curated CSV file). Or;
    2) Process requests after script user has classified them as "Granted" or "Rejected" in the output CSV file (from the above task). For instructions on how to format grant or reject access via the CSV file, consult the [main repository page](https://github.com/letendrt/Chronological-File-Request-Pull/tree/main) instructions (under README).
 
-    Selecting which task to run is easy. 
+    Selecting which task to run is easy. If run_access_processor is set to False, the script will create a CSV sheet template pulling all requests for the dataset. If run_access_processor is set to True, the script will process access requests. Simply comment out the unused one (and uncomment the used one).
+
+    <kbd><img width="766" height="103" alt="image" src="https://github.com/user-attachments/assets/65ff55c1-2f6b-4b4b-a258-0c681e59d7b1" /></kbd>
+
+6) If processing reviewed access requests, users will also need to fetch the CSV file directory and paste it as the value for csv_granter_file variable. Note that if the script is being run on windows, users should keep the 'r' before the directory string.
+
+    <kbd><img width="764" height="62" alt="image" src="https://github.com/user-attachments/assets/b5e2663c-66b8-4dfa-aff3-345ca381dc04" /></kbd>
