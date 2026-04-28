@@ -23,5 +23,5 @@ Both versions use the same functions and provide the same outputs. The instructi
 
 It is recommended that users follow at least one of these guides before continuing reading the present guide. Below are instructions on how the approve or reject requests using the tool. 
 
-## Understanding Script Outputs 📜🐤
+## Understanding Script Outputs (CSV) 📜🐤
 
