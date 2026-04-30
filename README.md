@@ -25,7 +25,7 @@ It is recommended that users follow at least one of these guides before continui
 
 ## Understanding Script Outputs (CSV) 📜🐤
 
-Running the CSV creation function (see Script Version links above for instructions on how to get/create the sheet) outputs a CSV file that holds the following information about the requestee (an example output file loaded into excel can be found in this repository):
+Running the CSV creation function (see Script Version links above for instructions on how to get/create the sheet) outputs a CSV file that holds the following information about the requestee (an example [output file](https://github.com/letendrt/Chronological-File-Request-Pull/blob/main/Mock%20Data%20Access%20Request%20-%20Excel.xlsx) imported into excel can be found above in this repository):
 1) Request Date
 2) Email
 3) Identifier (used to grant/reject access via API)
