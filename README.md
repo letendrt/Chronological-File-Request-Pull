@@ -46,5 +46,14 @@ The CSV file also holds the 'Granted Access?' column - all values in the column 
     
   <kbd><img width="798" height="108" alt="image" src="https://github.com/user-attachments/assets/17584fcc-e2c8-4f63-aaae-13b7ce9bcdc9" /></kbd>
 
+## Granting and Rejecting Access Requests --> 💚🐛 vs ⛔🐦
+
+
+
+
+
+
+
+
 
 
