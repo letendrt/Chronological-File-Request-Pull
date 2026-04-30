@@ -38,6 +38,13 @@ Running the CSV creation function (see Script Version links above for instructio
 10) Requested File ID (put between square brackets and separated by commas if more than one)
 11) Requested File Names (put between square brackets and separated by commas if more than one)
 
-The CSV file also holds the 'Granted Access?' column - all values in the column are set to 'Pending'. This is the only column that script runners need to edit prior to granting/rejecting access.
+The CSV file also holds the 'Granted Access?' column - all values in the column are, by default, set to 'Pending'. This is the only column that script runners need to edit prior to granting/rejecting access (see third screenshot below).
+
+  <kbd><img width="928" height="108" alt="image" src="https://github.com/user-attachments/assets/2f1b5f26-f24d-456b-b021-2d14090ff96c" /></kbd><br>
+    
+  <kbd><img width="940" height="107" alt="image" src="https://github.com/user-attachments/assets/eef7d512-5a7b-4eb7-9757-ca359902ad46" /></kbd><br>
+    
+  <kbd><img width="798" height="108" alt="image" src="https://github.com/user-attachments/assets/17584fcc-e2c8-4f63-aaae-13b7ce9bcdc9" /></kbd>
+
 
 
