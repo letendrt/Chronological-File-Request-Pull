@@ -57,7 +57,9 @@ Example:<br>
 Once column values have been updated to reflect the desired changes in Borealis, can submit the CSV file to the python script. The steps to do so differ depending on the script version being used (script VS user interface). As such, please refer to their respective instructions to familiarise yourself with the submission process. 
 
 ## Program Quirks 💫➿🙃
+The python script used to create the formatted CSV sheet is, by and large, an API wrapper that includes dataframe manipulation and harmonisation via the pandas library. As it currently stands, there is no singular API that pulls both the access requests and the time at which these requests were submitted. In order to allow users to chronologically order access requests, a secondary API was used to pull user notification of type 'REQUESTFILEACCESS', which includes notification time (an analog for request submission time). As such, I used user notifications to attach the time at which the submission was requested. 
 
+Therein lies the issue: if the user, for some reason, deleted their notifications, the script cannot extract access request times - ultimately resulting in errors (note, however, that 'read' notifications are still picked up by the API and do not cause any issue). This is the most reliable solution that I have found. 
 
 
 
