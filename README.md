@@ -59,11 +59,9 @@ Once column values have been updated to reflect the desired changes in Borealis,
 ## Program Quirks 💫➿🙃
 The python script used to create the formatted CSV sheet is, by and large, an API wrapper that includes dataframe manipulation and harmonisation via the pandas library. As it currently stands, there is no singular API that pulls both the access requests and the time at which these requests were submitted. In order to allow users to chronologically order access requests, a secondary API was used to pull user notification of type 'REQUESTFILEACCESS', which includes notification time (an analog for request submission time). As such, I used user notifications to attach the time at which the submission was requested. 
 
-Therein lies the issue: if the user, for some reason, deleted their notifications, the script cannot extract access request times - ultimately resulting in errors (note, however, that 'read' notifications are still picked up by the API and do not cause any issue). This is the most reliable solution that I have found. 
+Therein lies the issue: if the user, for some reason, deleted their notifications, the script cannot extract access request times - ultimately resulting in errors (note, however, that 'read' notifications are still picked up by the API and do not cause any issue). This is the most reliable solution that I have found. I welcome community feedback on this.
 
-
-
-
+The script also exclusively works for active requests pending approval/rejection. This means that approved users are removed from the CSV sheet whenever the script is re-run on a same DOI. This is not an issue per se, though it can make the task of tracking who has access to each datafile a tad more challenging. This is only really an 'issue' for revoking access. This is why I also strongly advise users to keep track of users with granted access in a secondary sheet (I am in the future to append approved users in a a perennial secondary sheet). 
 
 
 
