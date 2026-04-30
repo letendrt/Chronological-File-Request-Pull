@@ -47,9 +47,16 @@ The CSV file also holds the 'Granted Access?' column - all values in the column 
   <kbd><img width="798" height="108" alt="image" src="https://github.com/user-attachments/assets/17584fcc-e2c8-4f63-aaae-13b7ce9bcdc9" /></kbd>
 
 ## Granting and Rejecting Access Requests --> 💚🐛 vs ⛔🐦
-After the sheet creation process (refer to respective script guides) and after carefully reviewing access requests, script runners will have the choice to grant or reject the request. To do so, simply substitute the 'Pending' value from the 'Granted Access?' column with either 'Granted' or 'Rejected'. Deviations from 'Granted' and 'Rejected' will casue the entry to not be picked up by the python script (in other words, the access granting/rejecting will not go through). Users whose requests have yet to be considered can be left on 'Pending' (no action will be taken for these rows)
+After the sheet creation process (refer to respective script guides) and after carefully reviewing access requests, script runners will have the choice to grant or reject the request. To do so, simply substitute the 'Pending' value from the 'Granted Access?' column with either 'Granted' or 'Rejected'. Deviations from 'Granted' and 'Rejected' will casue the entry to not be picked up by the python script (in other words, the access granting/rejecting will not go through). Users whose requests have yet to be considered can be left on 'Pending' (no action will be taken for these rows). 
+
+In the example below, the first entry is left on 'Pending' (not picked up by script), the second and third are set to 'Rejected' (users will be denied access to the requested datafiles), and the last one is set to 'Granted' (user will be granted access exclusively to the requested datafiles within the dataset). 
+
+Example:<br>
+<kbd><img width="363" height="140" alt="image" src="https://github.com/user-attachments/assets/a0bcc635-d978-469f-9b6c-60e5977834aa" /></kbd>
 
 Once column values have been updated to reflect the desired changes in Borealis, can submit the CSV file to the python script. The steps to do so differ depending on the script version being used (script VS user interface). As such, please refer to their respective instructions to familiarise yourself with the submission process. 
+
+## Program Quirks 💫➿🙃
 
 
 
